@@ -1,0 +1,18 @@
+\contentsline {section}{\numberline {1}Introducci\IeC {\'o}n}{1}{section.1}
+\contentsline {section}{\numberline {2}C\IeC {\'a}lculo vectorial.}{2}{section.2}
+\contentsline {section}{\numberline {3}C\IeC {\'a}lculo integral.}{5}{section.3}
+\contentsline {section}{\numberline {4}Campo el\IeC {\'e}ctrico y campo magn\IeC {\'e}tico.}{5}{section.4}
+\contentsline {subsection}{\numberline {4.1}Campo el\IeC {\'e}ctrico.}{5}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Campo magn\IeC {\'e}tico.}{6}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Leyes de Maxwell.}{7}{subsection.4.3}
+\contentsline {section}{\numberline {5}Ecuaci\IeC {\'o}nes Diferenciales.}{9}{section.5}
+\contentsline {subsection}{\numberline {5.1}Ecuaci\IeC {\'o}n de Laplace.}{9}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Ecuaci\IeC {\'o}n de Helmholtz.}{9}{subsection.5.2}
+\contentsline {section}{\numberline {6}M\IeC {\'e}todo de elementos de borde.}{10}{section.6}
+\contentsline {section}{\numberline {7}Biblioteca bempp.}{16}{section.7}
+\contentsline {subsection}{\numberline {7.1}Estructura.}{16}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Algoritmo y explicaci\IeC {\'o}n.}{17}{subsection.7.2}
+\contentsline {section}{\numberline {8}Planteamiento del problema.}{20}{section.8}
+\contentsline {subsection}{\numberline {8.1}Creaci\IeC {\'o}n de mallas.}{25}{subsection.8.1}
+\contentsline {section}{\numberline {9}Desarrollo del problema.}{28}{section.9}
+\contentsline {section}{\numberline {10}Bibliograf\IeC {\'\i }a.}{38}{section.10}
