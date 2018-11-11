@@ -1,0 +1,149 @@
+\documentclass[11pt]{report}
+%
+\input{codigotex/preambulo}
+%\bibliographystyle{plainnat}
+\begin{document}
+%\include{codigotex/Portada}
+%\include{codigotex/Agradecimientos}
+%\tableofcontents
+%\listoffigures
+%\include{codigotex/intro}
+%\include{codigotex/Fundamentos_teoricos_mat}
+%\include{codigotex/Fundamentos_teoricos_elec}
+%\include{codigotex/Metodo_bem}
+%\include{codigotex/Libreria_bempp}
+%\include{codigotex/Planteamiento_del_problema}
+%\include{codigotex/Condiciones_del_problema}
+%\input{codigotex/Conclusiones}
+%\nocite{*}
+%\bibliography{bibliografia}
+\section{Utilización mallas Tesis Milan}
+Malla con 5550 elementos.
+\begin{figure}[H]
+\centering
+\includegraphics[width=16cm]{16-10/BH13_a5_l10_E5550.png}
+\caption{Vista malla en Jupyter Notebook}
+\end{figure}
+\begin{figure}[H]
+\centering
+\includegraphics[width=16cm]{16-10/BH13_a5_l10_E5550gmsh.png}
+\caption{Vista malla en GSHM (sección)}
+\end{figure}
+Resultados:
+\subsection{Ecuación 1.}
+$$\begin{bmatrix}
+\frac{1}{2}Id+S & -D\\
+\frac{1}{2}Id-S & \frac{\mu_2}{\mu_1}D
+\end{bmatrix}
+\begin{bmatrix}
+u_1\\
+\frac{\partial u_1}{\partial n}
+\end{bmatrix}
+=
+\begin{bmatrix}
+0\\
+\frac{\mu_1-\mu_2}{\mu_1}\frac{\partial u_{inc}}{\partial n}
+\end{bmatrix}$$
+\begin{figure}[H]
+\centering
+\includegraphics[width=16cm]{16-10/BH13_a5_l10_E5550solec1.png}
+\caption{Solución graficada de la ecuación 1}
+\end{figure}
+\begin{figure}[H]
+\centering
+\includegraphics[width=10cm]{16-10/BH13_a5_l10_E5550corte3.png}
+\caption{'Corte' de la solución en $z=0$}
+\end{figure}
+\subsection{Ecuación 2.}
+$$\begin{bmatrix}
+-D_{ext}-D_{int} & \alpha S_{int}+S_{ext}\\
+-D'_{ext}-D'_{int} & \frac{\alpha-1}{2}+ \alpha S'_{int}+S'_{ext}
+\end{bmatrix}
+\begin{bmatrix}
+u^{ext}\\
+\frac{\partial u^{ext}}{\partial n}
+\end{bmatrix}
+=
+\begin{bmatrix}
+u_{inc}\\
+\frac{\partial u_{inc}}{\partial n}
+\end{bmatrix}$$
+\begin{tcolorbox}
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}31}]:} \PY{c+c1}{\PYZsh{}Problem data}
+         \PY{n}{omega} \PY{o}{=} \PY{l+m+mf}{2.}\PY{o}{*}\PY{n}{np}\PY{o}{.}\PY{n}{pi}\PY{o}{*}\PY{l+m+mf}{10.e9}
+         \PY{n}{e0} \PY{o}{=} \PY{l+m+mf}{8.854}\PY{o}{*}\PY{l+m+mf}{1e\PYZhy{}12}\PY{o}{*}\PY{l+m+mf}{1e\PYZhy{}18}
+         \PY{n}{mu0} \PY{o}{=} \PY{l+m+mf}{4.}\PY{o}{*}\PY{n}{np}\PY{o}{.}\PY{n}{pi}\PY{o}{*}\PY{l+m+mf}{1e\PYZhy{}7}\PY{o}{*}\PY{l+m+mf}{1e6}
+         \PY{n}{mue} \PY{o}{=} \PY{p}{(}\PY{l+m+mf}{1.}\PY{p}{)}\PY{o}{*}\PY{n}{mu0}
+         \PY{n}{ee} \PY{o}{=} \PY{p}{(}\PY{l+m+mf}{16.}\PY{p}{)}\PY{o}{*}\PY{n}{e0}
+         \PY{n}{mui} \PY{o}{=} \PY{p}{(}\PY{o}{\PYZhy{}}\PY{l+m+mf}{2.9214}\PY{o}{+}\PY{l+m+mf}{0.5895}\PY{n}{j}\PY{p}{)}\PY{o}{*}\PY{n}{mu0}
+         \PY{n}{ei} \PY{o}{=} \PY{p}{(}\PY{l+m+mf}{82629.2677}\PY{o}{\PYZhy{}}\PY{l+m+mf}{200138.2211}\PY{n}{j}\PY{p}{)}\PY{o}{*}\PY{n}{e0}
+         \PY{n}{k} \PY{o}{=} \PY{n}{omega}\PY{o}{*}\PY{n}{np}\PY{o}{.}\PY{n}{sqrt}\PY{p}{(}\PY{n}{e0}\PY{o}{*}\PY{n}{mu0}\PY{p}{)}
+         \PY{n}{lam} \PY{o}{=} \PY{l+m+mi}{2}\PY{o}{*}\PY{n}{np}\PY{o}{.}\PY{n}{pi}\PY{o}{/}\PY{n}{k}
+         \PY{n}{nm} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{sqrt}\PY{p}{(}\PY{p}{(}\PY{n}{ee}\PY{o}{*}\PY{n}{mue}\PY{p}{)}\PY{o}{/}\PY{p}{(}\PY{n}{e0}\PY{o}{*}\PY{n}{mu0}\PY{p}{)}\PY{p}{)}
+         \PY{n}{nc} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{sqrt}\PY{p}{(}\PY{p}{(}\PY{n}{ei}\PY{o}{*}\PY{n}{mui}\PY{p}{)}\PY{o}{/}\PY{p}{(}\PY{n}{e0}\PY{o}{*}\PY{n}{mu0}\PY{p}{)}\PY{p}{)}
+         \PY{n}{alfa\PYZus{}m} \PY{o}{=} \PY{n}{mue}\PY{o}{/}\PY{n}{mu0}
+         \PY{n}{alfa\PYZus{}c} \PY{o}{=} \PY{n}{mui}\PY{o}{/}\PY{n}{mue}
+         \PY{n}{antena} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{array}\PY{p}{(}\PY{p}{[}\PY{p}{[}\PY{l+m+mf}{1e4}\PY{p}{]}\PY{p}{,}\PY{p}{[}\PY{l+m+mf}{0.}\PY{p}{]}\PY{p}{,}\PY{p}{[}\PY{l+m+mf}{0.}\PY{p}{]}\PY{p}{]}\PY{p}{)}
+         \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Numero de onda exterior:}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{n}{k}\PY{p}{)}
+         \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Indice de refraccion matriz:}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{n}{nm}\PY{p}{)}
+         \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Indice de refraccion conductor:}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{n}{nc}\PY{p}{)}
+         \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Numero de onda interior matriz:}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{n}{nm}\PY{o}{*}\PY{n}{k}\PY{p}{)}
+         \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Numero de onda interior conductor:}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{n}{nm}\PY{o}{*}\PY{n}{nc}\PY{o}{*}\PY{n}{k}\PY{p}{)}
+         \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Indice de transmision matriz:}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{n}{alfa\PYZus{}m}\PY{p}{)}
+         \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Indice de transmision conductor:}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{n}{alfa\PYZus{}c}\PY{p}{)}
+         \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Longitud de onda:}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{n}{lam}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{micras}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+\end{Verbatim}
+\end{tcolorbox}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+Numero de onda exterior: 0.0002095822793
+Indice de refraccion matriz: 4.0
+Indice de refraccion conductor: (510.829219424+619.966251289j)
+Numero de onda interior matriz: 0.000838329117198
+Numero de onda interior conductor: (0.428243008559+0.519735760136j)
+Indice de transmision matriz: 1.0
+Indice de transmision conductor: (-2.9214+0.5895j)
+Longitud de onda: 29979.5637693 micras
+
+    \end{Verbatim}
+\begin{tcolorbox}
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}32}]:} \PY{c+c1}{\PYZsh{}Dirichlet and Neumann functions}
+         \PY{k}{def} \PY{n+nf}{dirichlet\PYZus{}fun}\PY{p}{(}\PY{n}{x}\PY{p}{,} \PY{n}{n}\PY{p}{,} \PY{n}{domain\PYZus{}index}\PY{p}{,} \PY{n}{result}\PY{p}{)}\PY{p}{:}
+                 \PY{n}{result}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]} \PY{o}{=} \PY{l+m+mf}{1.} \PY{o}{*} \PY{n}{np}\PY{o}{.}\PY{n}{exp}\PY{p}{(}\PY{l+m+mi}{1}\PY{n}{j} \PY{o}{*} \PY{n}{k} \PY{o}{*} \PY{n}{x}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{]}\PY{p}{)}
+         \PY{k}{def} \PY{n+nf}{neumann\PYZus{}fun}\PY{p}{(}\PY{n}{x}\PY{p}{,} \PY{n}{n}\PY{p}{,} \PY{n}{domain\PYZus{}index}\PY{p}{,} \PY{n}{result}\PY{p}{)}\PY{p}{:}
+                 \PY{n}{result}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]} \PY{o}{=} \PY{l+m+mf}{1.} \PY{o}{*} \PY{l+m+mi}{1}\PY{n}{j} \PY{o}{*} \PY{n}{k} \PY{o}{*} \PY{n}{n}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{]} \PY{o}{*} \PY{n}{np}\PY{o}{.}\PY{n}{exp}\PY{p}{(}\PY{l+m+mi}{1}\PY{n}{j} \PY{o}{*} \PY{n}{k} \PY{o}{*} \PY{n}{x}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{]}\PY{p}{)}
+\end{Verbatim}
+\end{tcolorbox}
+
+\begin{tcolorbox}
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}33}]:} \PY{c+c1}{\PYZsh{}Multitrace Operators}
+\PY{n}{Ai\PYZus{}0} \PY{o}{=} \PY{n}{bempp}\PY{o}{.}\PY{n}{api}\PY{o}{.}\PY{n}{operators}\PY{o}{.}\PY{n}{boundary}\PY{o}{.}\PY{n}{helmholtz}\PY{o}{.}\PY{n}{multitrace\PYZus{}operator}\PY{p}{(}\PY{n}{grid\PYZus{}0}\PY{p}{,} \PY{n}{nm} \PY{o}{*} \PY{n}{nc} \PY{o}{*} \PY{n}{k}\PY{p}{)}
+\PY{n}{Ae\PYZus{}0} \PY{o}{=} \PY{n}{bempp}\PY{o}{.}\PY{n}{api}\PY{o}{.}\PY{n}{operators}\PY{o}{.}\PY{n}{boundary}\PY{o}{.}\PY{n}{helmholtz}\PY{o}{.}\PY{n}{multitrace\PYZus{}operator}\PY{p}{(}\PY{n}{grid\PYZus{}0}\PY{p}{,} \PY{n}{nm} \PY{o}{*} \PY{n}{k}\PY{p}{)}
+         
+         \PY{c+c1}{\PYZsh{}Multitrace Transmission}
+         \PY{n}{Ai\PYZus{}0}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{]} \PY{o}{=} \PY{n}{Ai\PYZus{}0}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{]}\PY{o}{*}\PY{n}{alfa\PYZus{}c}
+         \PY{n}{Ai\PYZus{}0}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{]} \PY{o}{=} \PY{n}{Ai\PYZus{}0}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{]}\PY{o}{*}\PY{n}{alfa\PYZus{}c}
+         
+         \PY{c+c1}{\PYZsh{}Interior and exterior link up}
+         \PY{n}{op\PYZus{}0} \PY{o}{=} \PY{p}{(}\PY{n}{Ai\PYZus{}0} \PY{o}{+} \PY{n}{Ae\PYZus{}0}\PY{p}{)}
+\end{Verbatim}
+\end{tcolorbox}
+\begin{figure}[H]
+\centering
+\includegraphics[width=16cm]{16-10/BH13_a5_l10_E5550solec2.png}
+\caption{Solución graficada de la ecuación 2}
+\end{figure}
+%\begin{figure}[H]
+%\centering
+%\includegraphics[width=10cm]{16-10/BH13_a5_l10_E5550corte1.png}
+%\caption{'Corte' de la solución en $z=0$}
+%\end{figure}
+\begin{figure}[H]
+\centering
+\includegraphics[width=10cm]{16-10/BH13_a5_l10_E5550corte2.png}
+\caption{'Corte' de la solución en $z=0$}
+\end{figure}
+\end{document}

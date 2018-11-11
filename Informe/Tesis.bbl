@@ -1,0 +1,58 @@
+\begin{thebibliography}{8}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Gms()]{Gmsh}
+\emph{Gmsh}.
+\newblock URL \url{http://gmsh.info/}.
+
+\bibitem[Wik()]{WikipediaVectorial}
+\emph{Articulo wikipedia. Campo Vectorial.}
+\newblock URL \url{https://es.wikipedia.org/wiki/Campo_vectorial}.
+
+\bibitem[bem()]{bempp}
+\emph{bempp services}.
+\newblock URL \url{https://bempp.com/}.
+
+\bibitem[cam(2014)]{camposvectoriales}
+\emph{Campos vectoriales.}
+\newblock Universidad Nacional de la Plata, 2014.
+\newblock URL
+  \url{http://www.mate.unlp.edu.ar/practicas/114_8_16062015111652.pdf}.
+
+\bibitem[Brebbia and Dominguez(1994)]{Brebbia}
+C.A. Brebbia and J.~Dominguez.
+\newblock \emph{Boundary Elements: An Introductory Course}.
+\newblock Sydney Grammar School Press, 1994.
+\newblock ISBN 9781853123498.
+\newblock URL \url{https://books.google.cl/books?id=YBElJxdldHYC}.
+
+\bibitem[Cignoni et~al.(2008)Cignoni, Callieri, Corsini, Dellepiane, Ganovelli,
+  and Ranzuglia]{Meshlab}
+Paolo Cignoni, Marco Callieri, Massimiliano Corsini, Matteo Dellepiane, Fabio
+  Ganovelli, and Guido Ranzuglia.
+\newblock \emph{{MeshLab: an Open-Source Mesh Processing Tool}}.
+\newblock The Eurographics Association, 2008.
+\newblock ISBN 978-3-905673-68-5.
+\newblock
+  \doi{10.2312/LocalChapterEvents/ItalChap/ItalianChapConf2008/129-136}.
+
+\bibitem[Serway et~al.(2015)Serway, Jewett, and Gonz{\'a}lez]{serway2015fisica}
+R.A. Serway, J.W. Jewett, and S.R.C. Gonz{\'a}lez.
+\newblock \emph{Fisica para ciencias e ingenieria. Vol. 2 (9a. ed.).}
+\newblock CENGAGE Learning, 2015.
+\newblock ISBN 9786075192017.
+\newblock URL \url{https://books.google.cl/books?id=zVuXAQAACAAJ}.
+
+\bibitem[\'{S}migaj et~al.({2015})\'{S}migaj, Betcke, Arridge, Phillips, and
+  Schweiger]{Solvingwithbempp}
+W.~\'{S}migaj, T.~Betcke, S.~Arridge, J.~Phillips, and M.~Schweiger.
+\newblock {Solving boundary integral problems with BEM++}.
+\newblock \emph{{ACM Transactions on mathematical software}}, {41}\penalty0
+  ({2}):\penalty0 {6:1--6:40}, {2015}.
+\newblock \doi{{10.1145/2590830}}.
+
+\end{thebibliography}

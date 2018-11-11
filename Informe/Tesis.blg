@@ -1,0 +1,31 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: Tesis.aux
+The style file: plainnat.bst
+A level-1 auxiliary file: codigotex/Portada.aux
+A level-1 auxiliary file: codigotex/Agradecimientos.aux
+A level-1 auxiliary file: codigotex/intro.aux
+A level-1 auxiliary file: codigotex/Fundamentos_teoricos_mat.aux
+A level-1 auxiliary file: codigotex/Fundamentos_teoricos_elec.aux
+A level-1 auxiliary file: codigotex/Metodo_bem.aux
+A level-1 auxiliary file: codigotex/Libreria_bempp.aux
+A level-1 auxiliary file: codigotex/Planteamiento_del_problema.aux
+A level-1 auxiliary file: codigotex/Condiciones_del_problema.aux
+Database file #1: bibliografia.bib
+Warning--to sort, need author, editor, or key in WikipediaVectorial
+Warning--to sort, need author, editor, or key in camposvectoriales
+Warning--to sort, need author, editor, or key in bempp
+Warning--to sort, need author, editor, or key in Gmsh
+Warning--empty author and editor in Gmsh
+Warning--empty publisher in Gmsh
+Warning--empty year in Gmsh
+Warning--empty year in Gmsh
+Warning--empty author and editor in WikipediaVectorial
+Warning--empty publisher in WikipediaVectorial
+Warning--empty year in WikipediaVectorial
+Warning--empty year in WikipediaVectorial
+Warning--empty author and editor in bempp
+Warning--empty publisher in bempp
+Warning--empty year in bempp
+Warning--empty year in bempp
+Warning--empty author and editor in camposvectoriales
+Warning--can't use both author and editor fields in Meshlab
+(There were 18 warnings)

@@ -1,0 +1,37 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Representaci\IeC {\'o}n y suma de vectores\relax }}{2}{figure.caption.8}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Campo vectorial. (Fuente: \cite {WikipediaVectorial})\relax }}{3}{figure.caption.9}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Campo vectorial. (Fuente: \cite {camposvectoriales})\relax }}{4}{figure.caption.10}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces L\IeC {\'\i }neas de campo el\IeC {\'e}ctrico. (Fuente: \cite {serway2015fisica})\relax }}{7}{figure.caption.11}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Campo magn\IeC {\'e}tico por una carga puntual. (Fuente: \cite {serway2015fisica})\relax }}{8}{figure.caption.12}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Campo magn\IeC {\'e}tico por una corriente el\IeC {\'e}ctrica. (Fuente: \cite {serway2015fisica})\relax }}{9}{figure.caption.13}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces L\IeC {\'\i }neas de campo magn\IeC {\'e}tico. (Fuente: \cite {serway2015fisica})\relax }}{10}{figure.caption.14}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces L\IeC {\'\i }neas de campo magn\IeC {\'e}tico. (Fuente: \cite {serway2015fisica})\relax }}{11}{figure.caption.15}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Propagaci\IeC {\'o}n de onda electromagn\IeC {\'e}tica. (Fuente: \cite {serway2015fisica})\relax }}{11}{figure.caption.16}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Diferencias en la discretizaci\IeC {\'o}n en BEM y FEM en 3D.\relax }}{13}{figure.caption.17}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Puntos de frontera para los casos 2D y 3D (Fuente:\cite {Brebbia})\relax }}{14}{figure.caption.18}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Diferentes tipos de elementos de frontera. (Fuente:\cite {Brebbia})\relax }}{15}{figure.caption.19}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Diferencias en la discretizaci\IeC {\'o}n en BEM y FEM en 2D (Fuente:\cite {Brebbia}).\relax }}{17}{figure.caption.20}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Elementos de borde y puntos internos para el estudio\relax }}{18}{figure.caption.21}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Modulos de bempp (Fuente:\cite {Solvingwithbempp})\relax }}{20}{figure.caption.22}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Algoritmo resoluci\IeC {\'o}n bempp\relax }}{21}{figure.caption.23}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Intersecci\IeC {\'o}n de elementos lineales continuos (Fuente:\cite {Brebbia})\relax }}{22}{figure.caption.24}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Situaci\IeC {\'o}n del problema\relax }}{25}{figure.caption.25}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Onda incidente perturbada.\relax }}{26}{figure.caption.26}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Micro-hilo no tiene efecto sobre la onda.\relax }}{27}{figure.caption.27}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Cilindro en SolidWorks\relax }}{31}{figure.caption.28}
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Malla vista completa\relax }}{31}{figure.caption.29}
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Malla detalle tapa\relax }}{32}{figure.caption.30}
+\contentsline {figure}{\numberline {7.7}{\ignorespaces Malla detalle elementos\relax }}{32}{figure.caption.31}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Malla con ajustes predeterminados en $plotly$\relax }}{34}{figure.caption.32}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Malla con eje $z$ no 'comprimido' en $plotly$\relax }}{34}{figure.caption.33}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Soluci\IeC {\'o}n situacion 1\relax }}{37}{figure.caption.34}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Soluci\IeC {\'o}n situacion 1\relax }}{39}{figure.caption.35}
+\addvspace {10\p@ }
+\addvspace {10\p@ }

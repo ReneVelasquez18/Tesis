@@ -1,0 +1,26 @@
+\documentclass[11pt]{report}
+%
+\input{codigotex/preambulo}
+\bibliographystyle{plainnat}
+\begin{document}
+\include{codigotex/Portada}
+\include{codigotex/Agradecimientos}
+\tableofcontents
+\listoffigures
+\include{codigotex/intro}
+\include{codigotex/Fundamentos_teoricos_mat}
+\include{codigotex/Fundamentos_teoricos_elec}
+\include{codigotex/Metodo_bem}
+\include{codigotex/Libreria_bempp}
+\include{codigotex/Planteamiento_del_problema}
+\include{codigotex/Condiciones_del_problema}
+\input{codigotex/Conclusiones}
+\chapter{Anexos}
+\section{Anexo I: Código 1.}
+\includepdf[pages=-]{PDFs/C1_E2_CIL_Cilindro.pdf}
+
+\nocite{*}
+
+\bibliography{bibliografia}
+
+\end{document}

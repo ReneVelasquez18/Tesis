@@ -1,26 +1,28 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.9)  10 OCT 2018 12:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.9)  8 NOV 2018 15:27
 entering extended mode
-**./INV.tex
-(INV.tex
+**./Tesis.tex
+(Tesis.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 75 language(s) loaded.
-("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\article.cls"
-Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\report.cls"
+Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
 ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size11.clo"
 File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
-\c@section=\count80
-\c@subsection=\count81
-\c@subsubsection=\count82
-\c@paragraph=\count83
-\c@subparagraph=\count84
-\c@figure=\count85
-\c@table=\count86
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
+(codigotex/preambulo.tex
 ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx.s
 ty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
@@ -59,10 +61,10 @@ Package: subfigure 2002/07/30 v2.1.4 subfigure package
 \subfigbottomskip=\skip45
 \subfigcapmargin=\dimen106
 \subfiglabelskip=\skip46
-\c@subfigure=\count87
-\c@lofdepth=\count88
-\c@subtable=\count89
-\c@lotdepth=\count90
+\c@subfigure=\count88
+\c@lofdepth=\count89
+\c@subtable=\count90
+\c@lotdepth=\count91
 
 ****************************************
 * Local config file subfigure.cfg used *
@@ -75,14 +77,14 @@ Package: subfigure 2002/07/30 v2.1.4 subfigure package
 )
 ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\multicol.sty"
 Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
-\c@tracingmulticols=\count91
+\c@tracingmulticols=\count92
 \mult@box=\box26
 \multicol@leftmargin=\dimen107
-\c@unbalance=\count92
-\c@collectmore=\count93
-\doublecol@number=\count94
-\multicoltolerance=\count95
-\multicolpretolerance=\count96
+\c@unbalance=\count93
+\c@collectmore=\count94
+\doublecol@number=\count95
+\multicoltolerance=\count96
+\multicolpretolerance=\count97
 \full@width=\dimen108
 \page@free=\dimen109
 \premulticols=\dimen110
@@ -113,20 +115,20 @@ Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
 \@tempa=\box47
 \@tempa=\box48
 \@tempa=\box49
-\c@columnbadness=\count97
-\c@finalcolumnbadness=\count98
+\c@columnbadness=\count98
+\c@finalcolumnbadness=\count99
 \last@try=\dimen113
 \multicolovershoot=\dimen114
 \multicolundershoot=\dimen115
 \mult@nat@firstbox=\box50
 \colbreak@box=\box51
-\mc@col@check@num=\count99
+\mc@col@check@num=\count100
 )
 ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\multirow\multirow.s
 ty"
 Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
 \multirow@colwidth=\skip51
-\multirow@cntb=\count100
+\multirow@cntb=\count101
 \multirow@dima=\skip52
 \bigstrutjot=\dimen116
 ) ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\array.sty"
@@ -149,8 +151,8 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 Package: suffix 2006/07/15 1.5a Variant command support
 )
 \CPT@WriteOut=\write3
-\c@CPT@WriteCount=\count101
-\c@CPT@numB=\count102
+\c@CPT@WriteCount=\count102
+\c@CPT@numB=\count103
 \CPT@commandatend@toks=\toks16
 )
 ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tcolorbox\tcolorbox
@@ -209,10 +211,10 @@ keysfiltered.code.tex"
 \pgf@yc=\dimen128
 \w@pgf@writea=\write4
 \r@pgf@reada=\read1
-\c@pgf@counta=\count103
-\c@pgf@countb=\count104
-\c@pgf@countc=\count105
-\c@pgf@countd=\count106
+\c@pgf@counta=\count104
+\c@pgf@countb=\count105
+\c@pgf@countc=\count106
+\c@pgf@countd=\count107
 \t@pgf@toka=\toks21
 \t@pgf@tokb=\toks22
 \t@pgf@tokc=\toks23
@@ -234,8 +236,8 @@ File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\p
 gfsyssoftpath.code.tex"
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count107
-\pgfsyssoftpath@bigbuffer@items=\count108
+\pgfsyssoftpath@smallbuffer@items=\count108
+\pgfsyssoftpath@bigbuffer@items=\count109
 )
 ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\p
 gfsysprotocol.code.tex"
@@ -272,7 +274,7 @@ til.code.tex")
 ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathp
 arser.code.tex"
 \pgfmath@dimen=\dimen129
-\pgfmath@count=\count109
+\pgfmath@count=\count110
 \pgfmath@box=\box53
 \pgfmath@toks=\toks24
 \pgfmath@stack@operand=\toks25
@@ -298,7 +300,7 @@ unctions.misc.code.tex")
 unctions.integerarithmetics.code.tex")))
 ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathf
 loat.code.tex"
-\c@pgfmathroundto@lastzeros=\count110
+\c@pgfmathroundto@lastzeros=\count111
 ))
 ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pg
 fcorepoints.code.tex"
@@ -336,7 +338,7 @@ File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgfpic=\box54
 \pgf@hbox=\box55
 \pgf@layerbox@main=\box56
-\pgf@picture@serial@count=\count111
+\pgf@picture@serial@count=\count112
 )
 ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pg
 fcoregraphicstate.code.tex"
@@ -371,7 +373,7 @@ File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
 fcoreshade.code.tex"
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
 \pgf@max=\dimen153
-\pgf@sys@shading@range@num=\count112
+\pgf@sys@shading@range@num=\count113
 )
 ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pg
 fcoreimage.code.tex"
@@ -432,29 +434,31 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.s
 ty"
 Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count113
+\etb@tempcnta=\count114
 )
 \tcb@titlebox=\box59
 \tcb@upperbox=\box60
 \tcb@lowerbox=\box61
 \tcb@phantombox=\box62
-\c@tcbbreakpart=\count114
-\c@tcblayer=\count115
-\tcolorbox@number=\count116
+\c@tcbbreakpart=\count115
+\c@tcblayer=\count116
+\tcolorbox@number=\count117
 \tcb@temp=\box63
 \tcb@temp=\box64
 \tcb@temp=\box65
 \tcb@temp=\box66
 \tcb@out=\write5
 \tcb@record@out=\write6
-) ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\cite\cite.sty"
-LaTeX Info: Redefining \cite on input line 302.
-LaTeX Info: Redefining \nocite on input line 332.
-Package: cite 2015/02/27  v 5.5
-) ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\esvect\esvect.sty
-"
+)
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\esvect\esvect.sty"
 Package: esvect 
 \symesvector=\mathgroup4
+) ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\afterpage.s
+ty"
+Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
+\AP@output=\toks30
+\AP@partial=\box67
+\AP@footins=\box68
 )
 ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amssymb.st
 y"
@@ -463,7 +467,7 @@ Package: amssymb 2013/01/14 v3.01 AMS font symbols
 ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.s
 ty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\@emptytoks=\toks30
+\@emptytoks=\toks31
 \symAMSa=\mathgroup5
 \symAMSb=\mathgroup6
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
@@ -481,7 +485,7 @@ Package: amstext 2000/06/29 v2.01 AMS text
  ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty
 "
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks31
+\@emptytoks=\toks32
 \ex@=\dimen156
 ))
 ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
@@ -491,41 +495,41 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 y"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count117
+\inf@bad=\count118
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count118
-\leftroot@=\count119
+\uproot@=\count119
+\leftroot@=\count120
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count120
-\DOTSCASE@=\count121
+\classnum@=\count121
+\DOTSCASE@=\count122
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
-\Mathstrutbox@=\box67
-\strutbox@=\box68
+\Mathstrutbox@=\box69
+\strutbox@=\box70
 \big@size=\dimen158
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count122
-\c@MaxMatrixCols=\count123
+\macc@depth=\count123
+\c@MaxMatrixCols=\count124
 \dotsspace@=\muskip10
-\c@parentequation=\count124
-\dspbrk@lvl=\count125
-\tag@help=\toks32
-\row@=\count126
-\column@=\count127
-\maxfields@=\count128
-\andhelp@=\toks33
+\c@parentequation=\count125
+\dspbrk@lvl=\count126
+\tag@help=\toks33
+\row@=\count127
+\column@=\count128
+\maxfields@=\count129
+\andhelp@=\toks34
 \eqnshift@=\dimen159
 \alignsep@=\dimen160
 \tagshift@=\dimen161
 \tagwidth@=\dimen162
 \totwidth@=\dimen163
 \lineht@=\dimen164
-\@envbody=\toks34
+\@envbody=\toks35
 \multlinegap=\skip56
 \multlinetaggap=\skip57
-\mathdisplay@stack=\toks35
+\mathdisplay@stack=\toks36
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
@@ -534,15 +538,15 @@ ty"
 Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
  ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\calc.sty"
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count129
-\calc@Bcount=\count130
+\calc@Acount=\count130
+\calc@Bcount=\count131
 \calc@Adimen=\dimen165
 \calc@Bdimen=\dimen166
 \calc@Askip=\skip58
 \calc@Bskip=\skip59
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count131
+\calc@Ccount=\count132
 \calc@Cskip=\skip60
 )
 ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.sty
@@ -572,11 +576,11 @@ Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 ef"
 File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
 )
-\AM@pagebox=\box69
-\AM@global@opts=\toks36
-\AM@toc@title=\toks37
-\c@AM@survey=\count132
-\AM@templatesizebox=\box70
+\AM@pagebox=\box71
+\AM@global@opts=\toks37
+\AM@toc@title=\toks38
+\c@AM@survey=\count133
+\AM@templatesizebox=\box72
 )
 ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption.sty
 "
@@ -594,15 +598,15 @@ Package caption3 Info: TeX engine: e-TeX on input line 64.
 \caption@parindent=\dimen174
 \caption@hangindent=\dimen175
 )
-\c@ContinuedFloat=\count133
+\c@ContinuedFloat=\count134
 Package caption Info: subfigure package is loaded.
 ) ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count134
-\float@exts=\toks38
-\float@box=\box71
-\@float@everytoks=\toks39
-\@floatcapt=\box72
+\c@float@type=\count135
+\float@exts=\toks39
+\float@box=\box73
+\@float@everytoks=\toks40
+\@floatcapt=\box74
 )
 ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\adjustbox\adjustbox
 .sty"
@@ -616,10 +620,10 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 ex"
 ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkvutils.
 tex"
-\XKV@toks=\toks40
-\XKV@tempa@toks=\toks41
+\XKV@toks=\toks41
+\XKV@tempa@toks=\toks42
 )
-\XKV@depth=\count135
+\XKV@depth=\count136
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\adjustbox\adjcalc.s
@@ -634,7 +638,7 @@ Package: trimclip 2018/04/08 v1.1 Trim and clip general TeX material
 ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\collectbox\collectb
 ox.sty"
 Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
-\collectedbox=\box73
+\collectedbox=\box75
 )
 \tc@llx=\dimen176
 \tc@lly=\dimen177
@@ -658,20 +662,20 @@ File: tc-pdftex.def 2018/04/08 v2.1 Clipping driver for pdftex
 ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ifoddpage\ifoddpage
 .sty"
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
-\c@checkoddpage=\count136
+\c@checkoddpage=\count137
 )
 ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ltxmisc\varwidth.st
 y"
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box74
-\sift@deathcycles=\count137
+\@vwid@box=\box76
+\sift@deathcycles=\count138
 \@vwid@loff=\dimen188
 \@vwid@roff=\dimen189
 ))
 ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\enumerate.sty
 "
 Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
-\@enLab=\toks42
+\@enLab=\toks43
 )
 ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry.s
 ty"
@@ -686,9 +690,9 @@ Package ifvtex Info: VTeX not detected.
 ty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count138
-\Gm@cntv=\count139
-\c@Gm@tempcnt=\count140
+\Gm@cnth=\count139
+\Gm@cntv=\count140
+\c@Gm@tempcnt=\count141
 \Gm@bindingoffset=\dimen190
 \Gm@wd@mp=\dimen191
 \Gm@odd@mp=\dimen192
@@ -697,7 +701,7 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutheight=\dimen195
 \Gm@layouthoffset=\dimen196
 \Gm@layoutvoffset=\dimen197
-\Gm@dimlist=\toks43
+\Gm@dimlist=\toks44
 
 ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry.c
 fg"))
@@ -783,30 +787,36 @@ Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 )
-("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\upquote\upquote.sty
-"
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\natbib\natbib.sty"
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip61
+\bibsep=\skip62
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count142
+) ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\upquote\upquote.s
+ty"
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
 tim
 )
 ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\eurosym\eurosym.sty
 "
 Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
-\@eurobox=\box75
+\@eurobox=\box77
 ) ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ucs\ucs.sty"
 Package: ucs 2013/05/11 v2.2 UCS: Unicode input support
 
 ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ucs\uni-global.def"
 File: uni-global.def 2013/05/13 UCS: Unicode global data
 )
-\uc@secondtry=\count141
-\uc@combtoks=\toks44
-\uc@combtoksb=\toks45
-\uc@temptokena=\toks46
+\uc@secondtry=\count143
+\uc@combtoks=\toks45
+\uc@combtoksb=\toks46
+\uc@temptokena=\toks47
 ) ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.sty
 "
 Package: inputenc 2015/03/17 v1.2c Input encoding file
-\inpenc@prehook=\toks47
-\inpenc@posthook=\toks48
+\inpenc@prehook=\toks48
+\inpenc@posthook=\toks49
  ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ucs\utf8x.def"
 File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
 ))
@@ -816,11 +826,11 @@ Package: fancyvrb 2008/02/07
 
 Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
 <2008/02/07> (tvz)
-\FV@CodeLineNo=\count142
+\FV@CodeLineNo=\count144
 \FV@InFile=\read3
-\FV@TabBox=\box76
-\c@FancyVerbLine=\count143
-\FV@StepNumber=\count144
+\FV@TabBox=\box78
+\c@FancyVerbLine=\count145
+\FV@StepNumber=\count146
 \FV@OutFile=\write7
 )
 ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grffile.st
@@ -906,14 +916,14 @@ y"
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
 \@linkdim=\dimen198
-\Hy@linkcounter=\count145
-\Hy@pagecounter=\count146
+\Hy@linkcounter=\count147
+\Hy@pagecounter=\count148
 
 ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def
 "
 File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count147
+\Hy@SavedSpaceFactor=\count149
 
 ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\hyperref.c
 fg"
@@ -926,14 +936,14 @@ Package hyperref Info: Plain pages OFF on input line 4524.
 Package hyperref Info: Backreferencing OFF on input line 4529.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4762.
-\c@Hy@tempcnt=\count148
+\c@Hy@tempcnt=\count150
  ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5115.
 \XeTeXLinkMargin=\dimen199
-\Fld@menulength=\count149
+\Fld@menulength=\count151
 \Field@Width=\dimen256
 \Fld@charsize=\dimen257
 Package hyperref Info: Hyper figures OFF on input line 6369.
@@ -945,17 +955,17 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6394.
 Package hyperref Info: PDF/A mode OFF on input line 6399.
 LaTeX Info: Redefining \ref on input line 6439.
 LaTeX Info: Redefining \pageref on input line 6443.
-\Hy@abspage=\count150
-\c@Item=\count151
-\c@Hfootnote=\count152
+\Hy@abspage=\count152
+\c@Item=\count153
+\c@Hfootnote=\count154
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hpdftex.de
 f"
 File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
-\Fld@listcount=\count153
-\c@bookmark@seq@number=\count154
+\Fld@listcount=\count155
+\c@bookmark@seq@number=\count156
 
 ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\rerunfilec
 heck.sty"
@@ -963,26 +973,26 @@ Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip61
+\Hy@SectionHShift=\skip63
 )
 ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\longtable.sty
 "
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
-\LTleft=\skip62
-\LTright=\skip63
-\LTpre=\skip64
-\LTpost=\skip65
-\LTchunksize=\count155
+\LTleft=\skip64
+\LTright=\skip65
+\LTpre=\skip66
+\LTpost=\skip67
+\LTchunksize=\count157
 \LTcapwidth=\dimen258
-\LT@head=\box77
-\LT@firsthead=\box78
-\LT@foot=\box79
-\LT@lastfoot=\box80
-\LT@cols=\count156
-\LT@rows=\count157
-\c@LT@tables=\count158
-\c@LT@chunks=\count159
-\LT@p@ftn=\toks49
+\LT@head=\box79
+\LT@firsthead=\box80
+\LT@foot=\box81
+\LT@lastfoot=\box82
+\LT@cols=\count158
+\LT@rows=\count159
+\c@LT@tables=\count160
+\c@LT@chunks=\count161
+\LT@p@ftn=\toks50
 )
 ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\booktabs\booktabs.s
 ty"
@@ -997,76 +1007,79 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \cmidrulesep=\dimen266
 \cmidrulekern=\dimen267
 \defaultaddspace=\dimen268
-\@cmidla=\count160
-\@cmidlb=\count161
+\@cmidla=\count162
+\@cmidlb=\count163
 \@aboverulesep=\dimen269
 \@belowrulesep=\dimen270
-\@thisruleclass=\count162
-\@lastruleclass=\count163
+\@thisruleclass=\count164
+\@lastruleclass=\count165
 \@thisrulewidth=\dimen271
 )
 ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\enumitem\enumitem.s
 ty"
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
-\labelindent=\skip66
+\labelindent=\skip68
 \enit@outerparindent=\dimen272
-\enit@toks=\toks50
-\enit@inbox=\box81
-\enitdp@description=\count164
+\enit@toks=\toks51
+\enit@inbox=\box83
+\enitdp@description=\count166
 ) ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ulem\ulem.sty"
-\UL@box=\box82
-\UL@hyphenbox=\box83
-\UL@skip=\skip67
-\UL@hook=\toks51
+\UL@box=\box84
+\UL@hyphenbox=\box85
+\UL@skip=\skip69
+\UL@hook=\toks52
 \UL@height=\dimen273
-\UL@pe=\count165
+\UL@pe=\count167
 \UL@pixel=\dimen274
-\ULC@box=\box84
+\ULC@box=\box86
 Package: ulem 2012/05/18
 \ULdepth=\dimen275
 )
-Package hyperref Info: Option `breaklinks' set `true' on input line 268.
-Package hyperref Info: Option `colorlinks' set `true' on input line 268.
- (INV.aux)
-\openout1 = `INV.aux'.
+Package hyperref Info: Option `breaklinks' set `true' on input line 239.
+Package hyperref Info: Option `colorlinks' set `true' on input line 239.
+) (Tesis.aux (codigotex/Portada.aux) (codigotex/Agradecimientos.aux)
+(codigotex/intro.aux) (codigotex/Fundamentos_teoricos_mat.aux)
+(codigotex/Fundamentos_teoricos_elec.aux) (codigotex/Metodo_bem.aux)
+(codigotex/Libreria_bempp.aux) (codigotex/Planteamiento_del_problema.aux)
+(codigotex/Condiciones_del_problema.aux))
+\openout1 = `Tesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 282.
-LaTeX Font Info:    ... okay on input line 282.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 282.
-LaTeX Font Info:    ... okay on input line 282.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 282.
-LaTeX Font Info:    ... okay on input line 282.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 282.
-LaTeX Font Info:    ... okay on input line 282.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 282.
-LaTeX Font Info:    ... okay on input line 282.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 282.
-LaTeX Font Info:    ... okay on input line 282.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 282.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 282.
-
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 5.
 
 ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 282.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 282.
-LaTeX Font Info:    ... okay on input line 282.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
 
 ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mki
 i"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count166
+\scratchcounter=\count168
 \scratchdimen=\dimen276
-\scratchbox=\box85
-\nofMPsegments=\count167
-\nofMParguments=\count168
-\everyMPshowfont=\toks52
-\MPscratchCnt=\count169
+\scratchbox=\box87
+\nofMPsegments=\count169
+\nofMParguments=\count170
+\everyMPshowfont=\toks53
+\MPscratchCnt=\count171
 \MPscratchDim=\dimen277
-\MPnumerator=\count170
-\makeMPintoPDFobject=\count171
-\everyMPtoPDFconversion=\toks53
+\MPnumerator=\count172
+\makeMPintoPDFobject=\count173
+\everyMPtoPDFconversion=\toks54
 )
 ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-b
 ase.sty"
@@ -1083,7 +1096,7 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 ) ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box86
+\AtBeginShipoutBox=\box88
 
 ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\pdflscape.
 sty"
@@ -1143,7 +1156,7 @@ Package caption Info: End \AtBeginDocument code.
 ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ucs\ucsencs.def"
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
-Package hyperref Info: Link coloring ON on input line 282.
+Package hyperref Info: Link coloring ON on input line 5.
 
 ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\nameref.st
 y"
@@ -1153,382 +1166,566 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 string.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count172
+\c@section@level=\count174
 )
-LaTeX Info: Redefining \ref on input line 282.
-LaTeX Info: Redefining \pageref on input line 282.
-LaTeX Info: Redefining \nameref on input line 282.
- (INV.out) (INV.out)
+LaTeX Info: Redefining \ref on input line 5.
+LaTeX Info: Redefining \pageref on input line 5.
+LaTeX Info: Redefining \nameref on input line 5.
+ (Tesis.out) (Tesis.out)
 \@outlinefile=\write8
-\openout8 = `INV.out'.
+\openout8 = `Tesis.out'.
 
+\openout2 = `codigotex/Portada.aux'.
 
+ (codigotex/Portada.tex
 ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ucs\uni-0.def"
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 )
-<Imagenes/logousm.jpg, id=74, 243.7908pt x 184.5294pt>
+<Imagenes/logousm.jpg, id=98, 243.7908pt x 184.5294pt>
 File: Imagenes/logousm.jpg Graphic file (type jpg)
 <use Imagenes/logousm.jpg>
-Package pdftex.def Info: Imagenes/logousm.jpg  used on input line 296.
+Package pdftex.def Info: Imagenes/logousm.jpg  used on input line 13.
 (pdftex.def)             Requested size: 187.96501pt x 142.26378pt.
 
 [1
 
+
 {C:/Users/User/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./Imagenes/l
-ogousm.jpg>] [1]pdfTeX warning (ext4): destination with the same identifier (na
-me{page.}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.329 \section
-              *{Resumen} [2]pdfTeX warning (ext4): destination with the same id
-entifier (name{page.}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.333 \section
-              *{Abstract} [3]pdfTeX warning (ext4): destination with the same i
-dentifier (name{page.}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.338 \section
-              *{Glosario} [4]pdfTeX warning (ext4): destination with the same i
-dentifier (name{page.}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.359 	\item \textbf
-                    {Magneto estricción:} propiedad de los materiales ferro...
-[5]pdfTeX warning (ext4): destination with the same identifier (name{page.}) ha
-s been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.368 \setcounter
-                 {page}{1} [6] (INV.toc
-LaTeX Font Info:    Try loading font information for U+esvect on input line 5.
+ogousm.jpg>] [2])
+\openout2 = `codigotex/Agradecimientos.aux'.
+
+ (codigotex/Agradecimientos.tex) [1
+
+
+
+] (Tesis.toc
+LaTeX Font Info:    Try loading font information for U+esvect on input line 3.
 
 ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\esvect\uesvect.fd"
 File: uesvect.fd 
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 5.
+LaTeX Font Info:    Try loading font information for U+msa on input line 3.
 ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 5.
+LaTeX Font Info:    Try loading font information for U+msb on input line 3.
 
 ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ))
 \tf@toc=\write9
-\openout9 = `INV.toc'.
+\openout9 = `Tesis.toc'.
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
+[2
+
+
+] (Tesis.lof)
+\tf@lof=\write10
+\openout10 = `Tesis.lof'.
+
+ [3
+
+]
+\openout2 = `codigotex/intro.aux'.
+
+ (codigotex/intro.tex [4
+
+] [5] [6] [7]
+Cap\IeC {\'\i }tulo 1.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 41--10
+
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.374 \pagenumbering
-                    {arabic} [1]pdfTeX warning (ext4): destination with the sam
-e identifier (name{page.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.381 
-       [1]
-<Imagenes/vectoreuni.png, id=132, 719.68875pt x 298.11375pt>
+l.10 \include{codigotex/intro}
+                               [1
+
+]
+\openout2 = `codigotex/Fundamentos_teoricos_mat.aux'.
+
+ (codigotex/Fundamentos_teoricos_mat.tex
+Cap\IeC {\'\i }tulo 2.
+<Imagenes/vectoreuni.png, id=248, 719.68875pt x 298.11375pt>
 File: Imagenes/vectoreuni.png Graphic file (type png)
 <use Imagenes/vectoreuni.png>
-Package pdftex.def Info: Imagenes/vectoreuni.png  used on input line 388.
+Package pdftex.def Info: Imagenes/vectoreuni.png  used on input line 9.
 (pdftex.def)             Requested size: 412.13763pt x 170.71652pt.
- [2 <./Imagenes/vectoreuni.png>]
-("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ucs\uni-33.def"
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.21 ...}+(A_y-B_y)\hat{\jmath}+(A_z-B_z)\hat{k}$$
+                                                   [2
+
+
+
+ <./Imagenes/vectoreuni.png>] ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9
+\tex\latex\ucs\uni-33.def"
 File: uni-33.def 2013/05/13 UCS: Unicode data U+2100..U+21FF
-)
-("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ucs\uni-34.def"
+) ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ucs\uni-34.def"
 File: uni-34.def 2013/05/13 UCS: Unicode data U+2200..U+22FF
 )
-<Imagenes/campovec.png, id=146, 376.40625pt x 376.40625pt>
+<Imagenes/campovec.png, id=259, 376.40625pt x 376.40625pt>
 File: Imagenes/campovec.png Graphic file (type png)
 <use Imagenes/campovec.png>
-Package pdftex.def Info: Imagenes/campovec.png  used on input line 419.
+Package pdftex.def Info: Imagenes/campovec.png  used on input line 40.
 (pdftex.def)             Requested size: 170.71947pt x 170.71652pt.
-<Imagenes/campoveccolor.png, id=149, 386.94562pt x 383.18156pt>
+<Imagenes/campoveccolor.png, id=262, 386.94562pt x 383.18156pt>
 File: Imagenes/campoveccolor.png Graphic file (type png)
 <use Imagenes/campoveccolor.png>
-Package pdftex.def Info: Imagenes/campoveccolor.png  used on input line 425.
+Package pdftex.def Info: Imagenes/campoveccolor.png  used on input line 46.
 (pdftex.def)             Requested size: 172.39395pt x 170.71652pt.
 
-[3 <./Imagenes/campovec.png>] [4 <./Imagenes/campoveccolor.png>]
-<Imagenes/Lineas_de_campo.png, id=168, 747.79375pt x 327.2225pt>
+[3 <./Imagenes/campovec.png>] [4 <./Imagenes/campoveccolor.png>] [5]) [6]
+\openout2 = `codigotex/Fundamentos_teoricos_elec.aux'.
+
+
+(codigotex/Fundamentos_teoricos_elec.tex
+Cap\IeC {\'\i }tulo 3.
+<Imagenes/Lineas_de_campo.png, id=294, 755.9442pt x 371.4678pt>
 File: Imagenes/Lineas_de_campo.png Graphic file (type png)
 <use Imagenes/Lineas_de_campo.png>
-Package pdftex.def Info: Imagenes/Lineas_de_campo.png  used on input line 503.
-(pdftex.def)             Requested size: 442.15295pt x 193.47882pt.
- [5]
-<Imagenes/campomag.png, id=179, 271.0125pt x 110.814pt>
+Package pdftex.def Info: Imagenes/Lineas_de_campo.png  used on input line 12.
+(pdftex.def)             Requested size: 463.22461pt x 227.62204pt.
+[7
+
+
+
+ <./Imagenes/Lineas_de_campo.png>]
+<Imagenes/campomag.png, id=302, 328.22626pt x 263.48438pt>
 File: Imagenes/campomag.png Graphic file (type png)
 <use Imagenes/campomag.png>
-Package pdftex.def Info: Imagenes/campomag.png  used on input line 520.
-(pdftex.def)             Requested size: 278.34372pt x 113.81102pt.
- [6 <./Imagenes/Lineas_de_campo.png>]
+Package pdftex.def Info: Imagenes/campomag.png  used on input line 28.
+(pdftex.def)             Requested size: 212.67342pt x 170.71652pt.
+
 ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ucs\uni-3.def"
 File: uni-3.def 2013/05/13 UCS: Unicode data U+0300..U+03FF
 )
-<Imagenes/campomag_corr.png, id=185, 271.0125pt x 86.12175pt>
+<Imagenes/campomag_corr.png, id=305, 326.72063pt x 389.20406pt>
 File: Imagenes/campomag_corr.png Graphic file (type png)
 <use Imagenes/campomag_corr.png>
-Package pdftex.def Info: Imagenes/campomag_corr.png  used on input line 529.
-(pdftex.def)             Requested size: 358.16353pt x 113.81102pt.
+Package pdftex.def Info: Imagenes/campomag_corr.png  used on input line 36.
+(pdftex.def)             Requested size: 191.08342pt x 227.62204pt.
 
-[7 <./Imagenes/campomag.png> <./Imagenes/campomag_corr.png>]
-<Imagenes/lineasmag.png, id=201, 451.6875pt x 451.6875pt>
+[8 <./Imagenes/campomag.png>] [9 <./Imagenes/campomag_corr.png>]
+<Imagenes/lineasmag.png, id=328, 323.70938pt x 290.58563pt>
 File: Imagenes/lineasmag.png Graphic file (type png)
 <use Imagenes/lineasmag.png>
-Package pdftex.def Info: Imagenes/lineasmag.png  used on input line 564.
-(pdftex.def)             Requested size: 156.494pt x 156.49014pt.
- [8 <./Imagenes/lineasmag.png>] [9]
-<Imagenes/DiscretizacionBEM.png, id=217, 314.97675pt x 185.493pt>
+Package pdftex.def Info: Imagenes/lineasmag.png  used on input line 70.
+(pdftex.def)             Requested size: 221.87296pt x 199.16928pt.
+ [10 <./Imagenes/lineasmag.png>]
+<Imagenes/camposmag.png, id=337, 500.62032pt x 173.89969pt>
+File: Imagenes/camposmag.png Graphic file (type png)
+<use Imagenes/camposmag.png>
+Package pdftex.def Info: Imagenes/camposmag.png  used on input line 80.
+(pdftex.def)             Requested size: 450.52356pt x 156.49014pt.
+<Imagenes/ondaelectromagneticas.png, id=340, 424.58624pt x 255.95625pt>
+File: Imagenes/ondaelectromagneticas.png Graphic file (type png)
+<use Imagenes/ondaelectromagneticas.png>
+Package pdftex.def Info: Imagenes/ondaelectromagneticas.png  used on input line
+ 86.
+(pdftex.def)             Requested size: 330.38554pt x 199.16928pt.
+) [11 <./Imagenes/camposmag.png> <./Imagenes/ondaelectromagneticas.png>]
+\openout2 = `codigotex/Metodo_bem.aux'.
+
+ (codigotex/Metodo_bem.tex
+Cap\IeC {\'\i }tulo 4.
+<Imagenes/DiscretizacionBEM.png, id=349, 314.97675pt x 185.493pt>
 File: Imagenes/DiscretizacionBEM.png Graphic file (type png)
 <use Imagenes/DiscretizacionBEM.png>
-Package pdftex.def Info: Imagenes/DiscretizacionBEM.png  used on input line 599
-.
+Package pdftex.def Info: Imagenes/DiscretizacionBEM.png  used on input line 9.
 (pdftex.def)             Requested size: 328.54854pt x 193.47882pt.
-<Imagenes/DiscretizacionFEM.png, id=218, 302.93175pt x 172.84575pt>
+<Imagenes/DiscretizacionFEM.png, id=350, 302.93175pt x 172.84575pt>
 File: Imagenes/DiscretizacionFEM.png Graphic file (type png)
 <use Imagenes/DiscretizacionFEM.png>
-Package pdftex.def Info: Imagenes/DiscretizacionFEM.png  used on input line 600
-.
+Package pdftex.def Info: Imagenes/DiscretizacionFEM.png  used on input line 10.
+
 (pdftex.def)             Requested size: 339.09634pt x 193.47882pt.
- [10 <./Imagenes/DiscretizacionBEM.png> <./Imagenes/DiscretizacionFEM.png>]
-<Imagenes/2.2.jpg, id=234, 673.01437pt x 405.76593pt>
+[12
+
+
+
+] [13 <./Imagenes/DiscretizacionBEM.png> <./Imagenes/DiscretizacionFEM.png>]
+<Imagenes/2.2.jpg, id=370, 673.01437pt x 405.76593pt>
 File: Imagenes/2.2.jpg Graphic file (type jpg)
 <use Imagenes/2.2.jpg>
-Package pdftex.def Info: Imagenes/2.2.jpg  used on input line 634.
+Package pdftex.def Info: Imagenes/2.2.jpg  used on input line 44.
 (pdftex.def)             Requested size: 235.55855pt x 142.0202pt.
-<Imagenes/2.3.jpg, id=235, 558.58687pt x 308.65312pt>
+<Imagenes/2.3.jpg, id=371, 558.58687pt x 308.65312pt>
 File: Imagenes/2.3.jpg Graphic file (type jpg)
 <use Imagenes/2.3.jpg>
-Package pdftex.def Info: Imagenes/2.3.jpg  used on input line 635.
+Package pdftex.def Info: Imagenes/2.3.jpg  used on input line 45.
 (pdftex.def)             Requested size: 195.50833pt x 108.0302pt.
- [11 <./Imagenes/2.2.jpg> <./Imagenes/2.3.jpg>]
-<Imagenes/elementos constantes.jpg, id=258, 565.36218pt x 300.3722pt>
+[14 <./Imagenes/2.2.jpg> <./Imagenes/2.3.jpg>]
+<Imagenes/elementos constantes.jpg, id=391, 565.36218pt x 300.3722pt>
 File: Imagenes/elementos constantes.jpg Graphic file (type jpg)
 <use Imagenes/elementos constantes.jpg>
 Package pdftex.def Info: Imagenes/elementos constantes.jpg  used on input line 
-666.
+76.
 (pdftex.def)             Requested size: 197.87971pt x 105.13184pt.
-<Imagenes/elementos lineales.jpg, id=259, 564.60938pt x 292.09125pt>
+<Imagenes/elementos lineales.jpg, id=392, 564.60938pt x 292.09125pt>
 File: Imagenes/elementos lineales.jpg Graphic file (type jpg)
 <use Imagenes/elementos lineales.jpg>
-Package pdftex.def Info: Imagenes/elementos lineales.jpg  used on input line 66
-7.
+Package pdftex.def Info: Imagenes/elementos lineales.jpg  used on input line 77
+.
 (pdftex.def)             Requested size: 197.61623pt x 102.23346pt.
-<Imagenes/elementos cuadraticos.jpg, id=260, 517.18219pt x 313.17pt>
+<Imagenes/elementos cuadraticos.jpg, id=393, 517.18219pt x 313.17pt>
 File: Imagenes/elementos cuadraticos.jpg Graphic file (type jpg)
 <use Imagenes/elementos cuadraticos.jpg>
 Package pdftex.def Info: Imagenes/elementos cuadraticos.jpg  used on input line
- 668.
+ 78.
 (pdftex.def)             Requested size: 181.01648pt x 109.61113pt.
- [12]
-<Imagenes/disbem.png, id=275, 745.5855pt x 409.53pt>
+ [15 <./Imagenes/elementos constantes.jpg> <./Imagenes/elementos lineales.jpg> 
+<./Imagenes/elementos cuadraticos.jpg>]
+<Imagenes/disbem.png, id=410, 745.5855pt x 409.53pt>
 File: Imagenes/disbem.png Graphic file (type png)
 <use Imagenes/disbem.png>
-Package pdftex.def Info: Imagenes/disbem.png  used on input line 700.
+Package pdftex.def Info: Imagenes/disbem.png  used on input line 110.
 (pdftex.def)             Requested size: 352.2455pt x 193.47882pt.
-<Imagenes/disfem.png, id=276, 634.7715pt x 376.40625pt>
+<Imagenes/disfem.png, id=411, 634.7715pt x 376.40625pt>
 File: Imagenes/disfem.png Graphic file (type png)
 <use Imagenes/disfem.png>
-Package pdftex.def Info: Imagenes/disfem.png  used on input line 701.
+Package pdftex.def Info: Imagenes/disfem.png  used on input line 111.
 (pdftex.def)             Requested size: 326.28624pt x 193.47882pt.
- [13 <./Imagenes/elementos constantes.jpg> <./Imagenes/elementos lineales.jpg> 
-<./Imagenes/elementos cuadraticos.jpg>] [14 <./Imagenes/disbem.png> <./Imagenes
-/disfem.png>]
-<Imagenes/bem.png, id=298, 286.82156pt x 330.48468pt>
+ [16] [17 <./Imagenes/disbem.png> <./Imagenes/disfem.png>]
+<Imagenes/bem.png, id=429, 286.82156pt x 330.48468pt>
 File: Imagenes/bem.png Graphic file (type png)
 <use Imagenes/bem.png>
-Package pdftex.def Info: Imagenes/bem.png  used on input line 711.
+Package pdftex.def Info: Imagenes/bem.png  used on input line 121.
 (pdftex.def)             Requested size: 286.82085pt x 330.48387pt.
+) [18 <./Imagenes/bem.png>]
+\openout2 = `codigotex/Libreria_bempp.aux'.
 
-[15 <./Imagenes/bem.png>]
-<Imagenes/estructurabempp.png, id=310, 507.39563pt x 369.63094pt>
+ (codigotex/Libreria_bempp.tex
+Cap\IeC {\'\i }tulo 5.
+<Imagenes/estructurabempp.png, id=440, 507.39563pt x 369.63094pt>
 File: Imagenes/estructurabempp.png Graphic file (type png)
 <use Imagenes/estructurabempp.png>
-Package pdftex.def Info: Imagenes/estructurabempp.png  used on input line 741.
+Package pdftex.def Info: Imagenes/estructurabempp.png  used on input line 14.
 (pdftex.def)             Requested size: 355.17451pt x 258.73988pt.
- [16 <./Imagenes/estructurabempp.png>]
-<Imagenes/Algoritmo bempp.png, id=322, 322.806pt x 532.8708pt>
+[19
+
+
+
+]
+<Imagenes/Algoritmo bempp.png, id=449, 322.806pt x 532.8708pt>
 File: Imagenes/Algoritmo bempp.png Graphic file (type png)
 <use Imagenes/Algoritmo bempp.png>
-Package pdftex.def Info: Imagenes/Algoritmo bempp.png  used on input line 754.
+Package pdftex.def Info: Imagenes/Algoritmo bempp.png  used on input line 27.
 (pdftex.def)             Requested size: 242.1039pt x 399.65211pt.
- [17 <./Imagenes/Algoritmo bempp.png>]
-<Imagenes/nodos lineales continuos.png, id=332, 819.06pt x 348.55219pt>
+ [20 <./Imagenes/estructurabempp.png>] [21 <./Imagenes/Algoritmo bempp.png>]
+<Imagenes/nodos lineales continuos.png, id=465, 819.06pt x 348.55219pt>
 File: Imagenes/nodos lineales continuos.png Graphic file (type png)
 <use Imagenes/nodos lineales continuos.png>
 Package pdftex.def Info: Imagenes/nodos lineales continuos.png  used on input l
-ine 773.
+ine 46.
 (pdftex.def)             Requested size: 327.6182pt x 139.4184pt.
- [18] [19 <./Imagenes/nodos lineales continuos.png>]
-<Imagenes/ondaincidente.png, id=354, 361.35pt x 409.53pt>
+ [22 <./Imagenes/nodos lineales continuos.png>]) [23]
+\openout2 = `codigotex/Planteamiento_del_problema.aux'.
+
+
+(codigotex/Planteamiento_del_problema.tex
+Cap\IeC {\'\i }tulo 6.
+) [24
+
+
+
+]
+\openout2 = `codigotex/Condiciones_del_problema.aux'.
+
+ (codigotex/Condiciones_del_problema.tex
+Cap\IeC {\'\i }tulo 7.
+<Imagenes/ondaincidente.png, id=488, 361.35pt x 409.53pt>
 File: Imagenes/ondaincidente.png Graphic file (type png)
 <use Imagenes/ondaincidente.png>
-Package pdftex.def Info: Imagenes/ondaincidente.png  used on input line 801.
+Package pdftex.def Info: Imagenes/ondaincidente.png  used on input line 7.
 (pdftex.def)             Requested size: 227.62204pt x 257.97401pt.
+[25
 
-[20 <./Imagenes/ondaincidente.png>]
-<Imagenes/ondaincidente3.png, id=364, 673.01437pt x 427.5975pt>
+
+
+ <./Imagenes/ondaincidente.png>]
+<Imagenes/ondaincidente3.png, id=496, 673.01437pt x 427.5975pt>
 File: Imagenes/ondaincidente3.png Graphic file (type png)
 <use Imagenes/ondaincidente3.png>
-Package pdftex.def Info: Imagenes/ondaincidente3.png  used on input line 824.
+Package pdftex.def Info: Imagenes/ondaincidente3.png  used on input line 29.
 (pdftex.def)             Requested size: 455.24408pt x 289.24222pt.
- [21 <./Imagenes/ondaincidente3.png>]
-<Imagenes/ondaincidente2.png, id=377, 537.50812pt x 364.36125pt>
+ [26 <./Imagenes/ondaincidente3.png>]
+<Imagenes/ondaincidente2.png, id=507, 537.50812pt x 364.36125pt>
 File: Imagenes/ondaincidente2.png Graphic file (type png)
 <use Imagenes/ondaincidente2.png>
-Package pdftex.def Info: Imagenes/ondaincidente2.png  used on input line 877.
+Package pdftex.def Info: Imagenes/ondaincidente2.png  used on input line 82.
 (pdftex.def)             Requested size: 455.24408pt x 308.59657pt.
 
-[22 <./Imagenes/ondaincidente2.png>] [23] [24]
-<Imagenes/Cilindro STEP.png, id=414, 481.8pt x 270.25969pt>
+[27 <./Imagenes/ondaincidente2.png>] [28] [29]
+<Imagenes/Cilindro STEP.png, id=545, 481.8pt x 270.25969pt>
 File: Imagenes/Cilindro STEP.png Graphic file (type png)
 <use Imagenes/Cilindro STEP.png>
-Package pdftex.def Info: Imagenes/Cilindro STEP.png  used on input line 1099.
+Package pdftex.def Info: Imagenes/Cilindro STEP.png  used on input line 304.
 (pdftex.def)             Requested size: 385.4405pt x 216.20804pt.
- [25]
-<Imagenes/malla1.png, id=427, 481.8pt x 271.0125pt>
+ [30]
+<Imagenes/malla1.png, id=558, 481.8pt x 271.0125pt>
 File: Imagenes/malla1.png Graphic file (type png)
 <use Imagenes/malla1.png>
-Package pdftex.def Info: Imagenes/malla1.png  used on input line 1105.
+Package pdftex.def Info: Imagenes/malla1.png  used on input line 310.
 (pdftex.def)             Requested size: 385.4405pt x 216.81029pt.
-<Imagenes/malla2.png, id=428, 481.8pt x 271.0125pt>
+<Imagenes/malla2.png, id=559, 481.8pt x 271.0125pt>
 File: Imagenes/malla2.png Graphic file (type png)
 <use Imagenes/malla2.png>
-Package pdftex.def Info: Imagenes/malla2.png  used on input line 1110.
+Package pdftex.def Info: Imagenes/malla2.png  used on input line 315.
 (pdftex.def)             Requested size: 385.4405pt x 216.81029pt.
-<Imagenes/malla3.png, id=429, 481.8pt x 271.0125pt>
+<Imagenes/malla3.png, id=560, 481.8pt x 271.0125pt>
 File: Imagenes/malla3.png Graphic file (type png)
 <use Imagenes/malla3.png>
-Package pdftex.def Info: Imagenes/malla3.png  used on input line 1115.
+Package pdftex.def Info: Imagenes/malla3.png  used on input line 320.
 (pdftex.def)             Requested size: 385.4405pt x 216.81029pt.
- [26 <./Imagenes/Cilindro STEP.png> <./Imagenes/malla1.png>]
+ [31 <./Imagenes/Cilindro STEP.png> <./Imagenes/malla1.png>]
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 1133.
-
- [27 <./Imagenes/malla2.png> <./Imagenes/malla3.png>]
-<Imagenes/graficas/Situacion 1/Malla/malla 1.png, id=447, 386.6445pt x 349.305p
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 338.
+ [32 <./Imagenes/malla2.png> <./Imagenes/malla3.png>]
+<Imagenes/graficas/Situacion 1/Malla/malla 1.png, id=576, 386.6445pt x 349.305p
 t>
 File: Imagenes/graficas/Situacion 1/Malla/malla 1.png Graphic file (type png)
 <use Imagenes/graficas/Situacion 1/Malla/malla 1.png>
 Package pdftex.def Info: Imagenes/graficas/Situacion 1/Malla/malla 1.png  used 
-on input line 1160.
+on input line 365.
 (pdftex.def)             Requested size: 347.97684pt x 314.37158pt.
-<Imagenes/graficas/Situacion 1/Malla/malla 2.png, id=448, 339.669pt x 324.61275
+<Imagenes/graficas/Situacion 1/Malla/malla 2.png, id=577, 339.669pt x 324.61275
 pt>
 File: Imagenes/graficas/Situacion 1/Malla/malla 2.png Graphic file (type png)
 <use Imagenes/graficas/Situacion 1/Malla/malla 2.png>
 Package pdftex.def Info: Imagenes/graficas/Situacion 1/Malla/malla 2.png  used 
-on input line 1165.
+on input line 370.
 (pdftex.def)             Requested size: 271.73557pt x 259.69054pt.
- [28] [29 <./Imagenes/graficas/Situacion 1/Malla/malla 1.png> <./Imagenes/grafi
-cas/Situacion 1/Malla/malla 2.png>] [30]
-<Imagenes/graficas/Situacion 1/Solucion ecuacion 1/3d.png, id=470, 352.31625pt 
-x 337.86224pt>
+ [33] [34 <./Imagenes/graficas/Situacion 1/Malla/malla 1.png> <./Imagenes/grafi
+cas/Situacion 1/Malla/malla 2.png>] [35]
+<Imagenes/graficas/Situacion 1/Solucion ecuacion 1/3d.png, id=597, 380.622pt x 
+358.33875pt>
 File: Imagenes/graficas/Situacion 1/Solucion ecuacion 1/3d.png Graphic file (ty
 pe png)
 <use Imagenes/graficas/Situacion 1/Solucion ecuacion 1/3d.png>
 Package pdftex.def Info: Imagenes/graficas/Situacion 1/Solucion ecuacion 1/3d.p
-ng  used on input line 1245.
-(pdftex.def)             Requested size: 455.24408pt x 436.56584pt.
- [31] [32 <./Imagenes/graficas/Situacion 1/Solucion ecuacion 1/3d.png>]
-LaTeX Font Info:    Try loading font information for TS1+cmtt on input line 130
-4.
+ng  used on input line 458.
+(pdftex.def)             Requested size: 455.24408pt x 428.621pt.
+ [36] [37 <./Imagenes/graficas/Situacion 1/Solucion ecuacion 1/3d.png>]
+LaTeX Font Info:    Try loading font information for TS1+cmtt on input line 517
+.
 
 ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1cmtt.fd"
 File: ts1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-<Imagenes/graficas/Situacion 1/Solucion ecuacion 1/2d.png, id=482, 564.1075pt x
- 490.83376pt>
+<Imagenes/graficas/Situacion 1/Solucion ecuacion 1/2d.png, id=608, 570.13pt x 4
+90.83376pt>
 File: Imagenes/graficas/Situacion 1/Solucion ecuacion 1/2d.png Graphic file (ty
 pe png)
 <use Imagenes/graficas/Situacion 1/Solucion ecuacion 1/2d.png>
 Package pdftex.def Info: Imagenes/graficas/Situacion 1/Solucion ecuacion 1/2d.p
-ng  used on input line 1310.
-(pdftex.def)             Requested size: 284.52756pt x 247.57324pt.
+ng  used on input line 523.
+(pdftex.def)             Requested size: 284.52756pt x 244.95192pt.
 
-[33] [34 <./Imagenes/graficas/Situacion 1/Solucion ecuacion 1/2d.png>] [35]
-[36] [37] (INV.bbl)
-<PDFs/C1_E1_CIL.pdf, id=507, 597.23125pt x 845.1575pt>
-File: PDFs/C1_E1_CIL.pdf Graphic file (type pdf)
-<use PDFs/C1_E1_CIL.pdf>
-Package pdftex.def Info: PDFs/C1_E1_CIL.pdf  used on input line 1515.
-(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-File: PDFs/C1_E1_CIL.pdf Graphic file (type pdf)
-<use PDFs/C1_E1_CIL.pdf>
-Package pdftex.def Info: PDFs/C1_E1_CIL.pdf  used on input line 1515.
-(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-<PDFs/C1_E1_CIL.pdf, id=510, page=1, 597.23125pt x 845.1575pt>
-File: PDFs/C1_E1_CIL.pdf Graphic file (type pdf)
-<use PDFs/C1_E1_CIL.pdf, page 1>
-Package pdftex.def Info: PDFs/C1_E1_CIL.pdf , page1 used on input line 1515.
-(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-File: PDFs/C1_E1_CIL.pdf Graphic file (type pdf)
-<use PDFs/C1_E1_CIL.pdf, page 1>
-Package pdftex.def Info: PDFs/C1_E1_CIL.pdf , page1 used on input line 1515.
-(pdftex.def)             Requested size: 537.50316pt x 760.63474pt.
- [38]
-File: PDFs/C1_E1_CIL.pdf Graphic file (type pdf)
-<use PDFs/C1_E1_CIL.pdf, page 1>
-Package pdftex.def Info: PDFs/C1_E1_CIL.pdf , page1 used on input line 1515.
-(pdftex.def)             Requested size: 537.50316pt x 760.63474pt.
-File: PDFs/C1_E1_CIL.pdf Graphic file (type pdf)
-<use PDFs/C1_E1_CIL.pdf, page 1>
-Package pdftex.def Info: PDFs/C1_E1_CIL.pdf , page1 used on input line 1515.
-(pdftex.def)             Requested size: 537.50316pt x 760.63474pt.
-File: PDFs/C1_E1_CIL.pdf Graphic file (type pdf)
-<use PDFs/C1_E1_CIL.pdf, page 1>
-Package pdftex.def Info: PDFs/C1_E1_CIL.pdf , page1 used on input line 1515.
-(pdftex.def)             Requested size: 537.50316pt x 760.63474pt.
- [39 <./PDFs/C1_E1_CIL.pdf>]
-<PDFs/C1_E1_CIL.pdf, id=567, page=2, 597.23125pt x 845.1575pt>
-File: PDFs/C1_E1_CIL.pdf Graphic file (type pdf)
-<use PDFs/C1_E1_CIL.pdf, page 2>
-Package pdftex.def Info: PDFs/C1_E1_CIL.pdf , page2 used on input line 1515.
-(pdftex.def)             Requested size: 537.50316pt x 760.63474pt.
-File: PDFs/C1_E1_CIL.pdf Graphic file (type pdf)
-<use PDFs/C1_E1_CIL.pdf, page 2>
-Package pdftex.def Info: PDFs/C1_E1_CIL.pdf , page2 used on input line 1515.
-(pdftex.def)             Requested size: 537.50316pt x 760.63474pt.
-File: PDFs/C1_E1_CIL.pdf Graphic file (type pdf)
-<use PDFs/C1_E1_CIL.pdf, page 2>
-Package pdftex.def Info: PDFs/C1_E1_CIL.pdf , page2 used on input line 1515.
-(pdftex.def)             Requested size: 537.50316pt x 760.63474pt.
- [40 <./PDFs/C1_E1_CIL.pdf>]
-<PDFs/C1_E1_CIL.pdf, id=623, page=3, 597.23125pt x 845.1575pt>
-File: PDFs/C1_E1_CIL.pdf Graphic file (type pdf)
-<use PDFs/C1_E1_CIL.pdf, page 3>
-Package pdftex.def Info: PDFs/C1_E1_CIL.pdf , page3 used on input line 1515.
-(pdftex.def)             Requested size: 537.50316pt x 760.63474pt.
-File: PDFs/C1_E1_CIL.pdf Graphic file (type pdf)
-<use PDFs/C1_E1_CIL.pdf, page 3>
-Package pdftex.def Info: PDFs/C1_E1_CIL.pdf , page3 used on input line 1515.
-(pdftex.def)             Requested size: 537.50316pt x 760.63474pt.
-File: PDFs/C1_E1_CIL.pdf Graphic file (type pdf)
-<use PDFs/C1_E1_CIL.pdf, page 3>
-Package pdftex.def Info: PDFs/C1_E1_CIL.pdf , page3 used on input line 1515.
-(pdftex.def)             Requested size: 537.50316pt x 760.63474pt.
- [41 <./PDFs/C1_E1_CIL.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1516.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1516.
- (INV.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1516.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1516.
+[38] [39 <./Imagenes/graficas/Situacion 1/Solucion ecuacion 1/2d.png>] [40]
+[41]) [42] [43] (codigotex/Conclusiones.tex
+Cap\IeC {\'\i }tulo 8.
+) [44
 
-Package rerunfilecheck Info: File `INV.out' has not changed.
-(rerunfilecheck)             Checksum: 68621A8D0DD6A030DD1C4B63E07EB7BA;1119.
+
+]
+Cap\IeC {\'\i }tulo 9.
+<PDFs/C1_E2_CIL_Cilindro.pdf, id=640, 614.295pt x 794.97pt>
+File: PDFs/C1_E2_CIL_Cilindro.pdf Graphic file (type pdf)
+<use PDFs/C1_E2_CIL_Cilindro.pdf>
+Package pdftex.def Info: PDFs/C1_E2_CIL_Cilindro.pdf  used on input line 20.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: PDFs/C1_E2_CIL_Cilindro.pdf Graphic file (type pdf)
+<use PDFs/C1_E2_CIL_Cilindro.pdf>
+Package pdftex.def Info: PDFs/C1_E2_CIL_Cilindro.pdf  used on input line 20.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<PDFs/C1_E2_CIL_Cilindro.pdf, id=643, page=1, 614.295pt x 794.97pt>
+File: PDFs/C1_E2_CIL_Cilindro.pdf Graphic file (type pdf)
+<use PDFs/C1_E2_CIL_Cilindro.pdf, page 1>
+Package pdftex.def Info: PDFs/C1_E2_CIL_Cilindro.pdf , page1 used on input line
+ 20.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: PDFs/C1_E2_CIL_Cilindro.pdf Graphic file (type pdf)
+<use PDFs/C1_E2_CIL_Cilindro.pdf, page 1>
+Package pdftex.def Info: PDFs/C1_E2_CIL_Cilindro.pdf , page1 used on input line
+ 20.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[45
+
+]
+File: PDFs/C1_E2_CIL_Cilindro.pdf Graphic file (type pdf)
+<use PDFs/C1_E2_CIL_Cilindro.pdf, page 1>
+Package pdftex.def Info: PDFs/C1_E2_CIL_Cilindro.pdf , page1 used on input line
+ 20.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDFs/C1_E2_CIL_Cilindro.pdf Graphic file (type pdf)
+<use PDFs/C1_E2_CIL_Cilindro.pdf, page 1>
+Package pdftex.def Info: PDFs/C1_E2_CIL_Cilindro.pdf , page1 used on input line
+ 20.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDFs/C1_E2_CIL_Cilindro.pdf Graphic file (type pdf)
+<use PDFs/C1_E2_CIL_Cilindro.pdf, page 1>
+Package pdftex.def Info: PDFs/C1_E2_CIL_Cilindro.pdf , page1 used on input line
+ 20.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [46 <./PDFs/C1_E2_CIL_Cilindro.pdf>]
+<PDFs/C1_E2_CIL_Cilindro.pdf, id=702, page=2, 614.295pt x 794.97pt>
+File: PDFs/C1_E2_CIL_Cilindro.pdf Graphic file (type pdf)
+<use PDFs/C1_E2_CIL_Cilindro.pdf, page 2>
+Package pdftex.def Info: PDFs/C1_E2_CIL_Cilindro.pdf , page2 used on input line
+ 20.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDFs/C1_E2_CIL_Cilindro.pdf Graphic file (type pdf)
+<use PDFs/C1_E2_CIL_Cilindro.pdf, page 2>
+Package pdftex.def Info: PDFs/C1_E2_CIL_Cilindro.pdf , page2 used on input line
+ 20.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDFs/C1_E2_CIL_Cilindro.pdf Graphic file (type pdf)
+<use PDFs/C1_E2_CIL_Cilindro.pdf, page 2>
+Package pdftex.def Info: PDFs/C1_E2_CIL_Cilindro.pdf , page2 used on input line
+ 20.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [47 <./PDFs/C1_E2_CIL_Cilindro.pdf>]
+<PDFs/C1_E2_CIL_Cilindro.pdf, id=707, page=3, 614.295pt x 794.97pt>
+File: PDFs/C1_E2_CIL_Cilindro.pdf Graphic file (type pdf)
+<use PDFs/C1_E2_CIL_Cilindro.pdf, page 3>
+Package pdftex.def Info: PDFs/C1_E2_CIL_Cilindro.pdf , page3 used on input line
+ 20.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDFs/C1_E2_CIL_Cilindro.pdf Graphic file (type pdf)
+<use PDFs/C1_E2_CIL_Cilindro.pdf, page 3>
+Package pdftex.def Info: PDFs/C1_E2_CIL_Cilindro.pdf , page3 used on input line
+ 20.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDFs/C1_E2_CIL_Cilindro.pdf Graphic file (type pdf)
+<use PDFs/C1_E2_CIL_Cilindro.pdf, page 3>
+Package pdftex.def Info: PDFs/C1_E2_CIL_Cilindro.pdf , page3 used on input line
+ 20.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+[48 <./PDFs/C1_E2_CIL_Cilindro.pdf>]
+<PDFs/C1_E2_CIL_Cilindro.pdf, id=712, page=4, 614.295pt x 794.97pt>
+File: PDFs/C1_E2_CIL_Cilindro.pdf Graphic file (type pdf)
+<use PDFs/C1_E2_CIL_Cilindro.pdf, page 4>
+Package pdftex.def Info: PDFs/C1_E2_CIL_Cilindro.pdf , page4 used on input line
+ 20.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDFs/C1_E2_CIL_Cilindro.pdf Graphic file (type pdf)
+<use PDFs/C1_E2_CIL_Cilindro.pdf, page 4>
+Package pdftex.def Info: PDFs/C1_E2_CIL_Cilindro.pdf , page4 used on input line
+ 20.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDFs/C1_E2_CIL_Cilindro.pdf Graphic file (type pdf)
+<use PDFs/C1_E2_CIL_Cilindro.pdf, page 4>
+Package pdftex.def Info: PDFs/C1_E2_CIL_Cilindro.pdf , page4 used on input line
+ 20.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [49 <./PDFs/C1_E2_CIL_Cilindro.pdf>]
+<PDFs/C1_E2_CIL_Cilindro.pdf, id=721, page=5, 614.295pt x 794.97pt>
+File: PDFs/C1_E2_CIL_Cilindro.pdf Graphic file (type pdf)
+<use PDFs/C1_E2_CIL_Cilindro.pdf, page 5>
+Package pdftex.def Info: PDFs/C1_E2_CIL_Cilindro.pdf , page5 used on input line
+ 20.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDFs/C1_E2_CIL_Cilindro.pdf Graphic file (type pdf)
+<use PDFs/C1_E2_CIL_Cilindro.pdf, page 5>
+Package pdftex.def Info: PDFs/C1_E2_CIL_Cilindro.pdf , page5 used on input line
+ 20.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDFs/C1_E2_CIL_Cilindro.pdf Graphic file (type pdf)
+<use PDFs/C1_E2_CIL_Cilindro.pdf, page 5>
+Package pdftex.def Info: PDFs/C1_E2_CIL_Cilindro.pdf , page5 used on input line
+ 20.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+[50 <./PDFs/C1_E2_CIL_Cilindro.pdf>]
+<PDFs/C1_E2_CIL_Cilindro.pdf, id=726, page=6, 614.295pt x 794.97pt>
+File: PDFs/C1_E2_CIL_Cilindro.pdf Graphic file (type pdf)
+<use PDFs/C1_E2_CIL_Cilindro.pdf, page 6>
+Package pdftex.def Info: PDFs/C1_E2_CIL_Cilindro.pdf , page6 used on input line
+ 20.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDFs/C1_E2_CIL_Cilindro.pdf Graphic file (type pdf)
+<use PDFs/C1_E2_CIL_Cilindro.pdf, page 6>
+Package pdftex.def Info: PDFs/C1_E2_CIL_Cilindro.pdf , page6 used on input line
+ 20.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDFs/C1_E2_CIL_Cilindro.pdf Graphic file (type pdf)
+<use PDFs/C1_E2_CIL_Cilindro.pdf, page 6>
+Package pdftex.def Info: PDFs/C1_E2_CIL_Cilindro.pdf , page6 used on input line
+ 20.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [51 <./PDFs/C1_E2_CIL_Cilindro.pdf>]
+<PDFs/C1_E2_CIL_Cilindro.pdf, id=733, page=7, 614.295pt x 794.97pt>
+File: PDFs/C1_E2_CIL_Cilindro.pdf Graphic file (type pdf)
+<use PDFs/C1_E2_CIL_Cilindro.pdf, page 7>
+Package pdftex.def Info: PDFs/C1_E2_CIL_Cilindro.pdf , page7 used on input line
+ 20.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDFs/C1_E2_CIL_Cilindro.pdf Graphic file (type pdf)
+<use PDFs/C1_E2_CIL_Cilindro.pdf, page 7>
+Package pdftex.def Info: PDFs/C1_E2_CIL_Cilindro.pdf , page7 used on input line
+ 20.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDFs/C1_E2_CIL_Cilindro.pdf Graphic file (type pdf)
+<use PDFs/C1_E2_CIL_Cilindro.pdf, page 7>
+Package pdftex.def Info: PDFs/C1_E2_CIL_Cilindro.pdf , page7 used on input line
+ 20.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+[52 <./PDFs/C1_E2_CIL_Cilindro.pdf>]
+<PDFs/C1_E2_CIL_Cilindro.pdf, id=739, page=8, 614.295pt x 794.97pt>
+File: PDFs/C1_E2_CIL_Cilindro.pdf Graphic file (type pdf)
+<use PDFs/C1_E2_CIL_Cilindro.pdf, page 8>
+Package pdftex.def Info: PDFs/C1_E2_CIL_Cilindro.pdf , page8 used on input line
+ 20.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDFs/C1_E2_CIL_Cilindro.pdf Graphic file (type pdf)
+<use PDFs/C1_E2_CIL_Cilindro.pdf, page 8>
+Package pdftex.def Info: PDFs/C1_E2_CIL_Cilindro.pdf , page8 used on input line
+ 20.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDFs/C1_E2_CIL_Cilindro.pdf Graphic file (type pdf)
+<use PDFs/C1_E2_CIL_Cilindro.pdf, page 8>
+Package pdftex.def Info: PDFs/C1_E2_CIL_Cilindro.pdf , page8 used on input line
+ 20.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [53 <./PDFs/C1_E2_CIL_Cilindro.pdf>]
+(Tesis.bbl
+Underfull \hbox (badness 3029) in paragraph at lines 13--15
+[]\OT1/cmr/m/it/10.95 Articulo wikipedia. Campo Vec-to-rial.  \OT1/cmr/m/n/10.9
+5 URL [][]$\OT1/cmtt/m/n/10.95 https : / / es . wikipedia . org / wiki / Campo 
+_
+ []
+
+) [54
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 26.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 26.
+ (Tesis.aux (codigotex/Portada.aux) (codigotex/Agradecimientos.aux)
+(codigotex/intro.aux) (codigotex/Fundamentos_teoricos_mat.aux)
+(codigotex/Fundamentos_teoricos_elec.aux) (codigotex/Metodo_bem.aux)
+(codigotex/Libreria_bempp.aux) (codigotex/Planteamiento_del_problema.aux)
+(codigotex/Condiciones_del_problema.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 26.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 26.
+Package rerunfilecheck Info: File `Tesis.out' has not changed.
+(rerunfilecheck)             Checksum: 6A306FC48A4D376EB999D1AAAB76A106;1567.
  ) 
 Here is how much of TeX's memory you used:
- 23190 strings out of 493305
- 412708 string characters out of 3130238
- 489374 words of memory out of 3000000
- 26109 multiletter control sequences out of 15000+200000
- 14469 words of font info for 59 fonts, out of 3000000 for 9000
+ 23612 strings out of 493305
+ 421084 string characters out of 3130238
+ 496689 words of memory out of 3000000
+ 26422 multiletter control sequences out of 15000+200000
+ 15681 words of font info for 63 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 54i,24n,77p,1857b,610s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 56i,24n,79p,1905b,610s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\User\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\t
 ctt1095.pk> <C:\Users\User\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec
 \dpi600\tcrm1095.pk><C:/Users/User/AppData/Local/Programs/MiKTeX 2.9/fonts/type
@@ -1550,10 +1747,17 @@ sy10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
 sfonts/cm/cmsy8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX 2.9/fonts/type
 1/public/amsfonts/cm/cmti10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX 2.
 9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/User/AppData/Local/Progra
-ms/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on INV.pdf (49 pages, 2828132 bytes).
+ms/MiKTeX 2.9/fonts/type1/public/mathpazo/fplmri.pfb><C:/Users/User/AppData/Loc
+al/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtk10.pfb><C:/Users/User/AppData/
+Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Users/User/AppDa
+ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtti10.pfb><C:/Users/User/A
+ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb
+><C:/Users/User/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplr
+8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatin
+o/uplri8a.pfb>
+Output written on Tesis.pdf (63 pages, 3672107 bytes).
 PDF statistics:
- 736 PDF objects out of 1000 (max. 8388607)
- 163 named destinations out of 1000 (max. 500000)
- 339 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 871 PDF objects out of 1000 (max. 8388607)
+ 193 named destinations out of 1000 (max. 500000)
+ 422 words of extra memory for PDF output out of 10000 (max. 10000000)
 

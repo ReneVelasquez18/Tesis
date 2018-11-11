@@ -1,7 +1,7 @@
 \documentclass[11pt]{article}
 \usepackage{graphicx}
 \usepackage{subfigure}
-    \usepackage{multicol}
+\usepackage{multicol}
 \usepackage{multirow}
 \usepackage{array, multirow}
 \usepackage{hhline}
@@ -10,6 +10,8 @@
 \usepackage{cite} 
 \usepackage{esvect}
 \usepackage{amssymb, amsmath, amsbsy}
+\usepackage{pdfpages}
+%\usepackage{natbib}
 %\usepackage[backend=bibtex]{biblatex}
 %\addbibresource{Biblio.bib}
 %    \usepackage[T1]{fontenc}
@@ -372,6 +374,7 @@ Gracias cellor jebus.
 \pagenumbering{arabic}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\chapter{Introduccin}
 \section{Introducción}
 
 \pagebreak
@@ -414,7 +417,7 @@ Entonces podríamos definir el campo vectorial como un campo que asocia un vecto
 \begin{figure}[H]
 \centering
 \includegraphics[height=6cm]{Imagenes/campovec.png}
-\caption{Campo vectorial. (Fuente: Wikipedia)}\label{fig:Campo vectorial}
+\caption{Campo vectorial. (Fuente: \cite{WikipediaVectorial})}\label{fig:Campo vectorial}
 \end{figure}
 Para graficar estos campos usualmente se escalan los vectores en cada punto de manera que al mirar el campo completo el dibujo sea entendible, es decir escalamos los vectores para que quepan todos en el dibujo. Otra buena manera de graficar estos campos de forma que sean más fácil de interpretar por parte del lector es coloreando las líneas y establecer una escala de colores para poder interpretar de mejor manera.
 \begin{figure}[H]
@@ -422,7 +425,7 @@ Para graficar estos campos usualmente se escalan los vectores en cada punto de m
 \includegraphics[height=6cm]{Imagenes/campoveccolor.png}
 \caption{Campo vectorial. (Fuente: \cite{camposvectoriales})}\label{fig:Campo vectorial en colores}
 \end{figure}
-Es necesario también saber las operaciones posibles entre campos vectoriales, las fundamentales son 2. El gradiente y el rotacional del campo. Según las definiciones de \cite{camposvectoriales2}:
+Es necesario también saber las operaciones posibles entre campos vectoriales, las fundamentales son 2. El gradiente y el rotacional del campo. Según las definiciones de cite{camposvectoriales2}:
 Sea $f:A\subset \mathbb{R}^3\rightarrow \mathbb{R}^3$ un campo vectorial. Suponiendo las condiciones necesarias de derivación definimos divergencia y rotor respectivamente como:
 \begin{equation*} 
 \mathnormal{div}\;F(x,y,z)=\frac{\partial F_1}{\partial x}(x,y,z)+\frac{\partial F_2}{\partial y}(x,y,z)+\frac{\partial F_3}{\partial z}(x,y,z)
@@ -728,7 +731,7 @@ El cálculo para la derivada en ambas direcciones en los puntos internos tambié
 Bempp es una plataforma computacional gratuita de elementos de frontera se puede utilizar para resolver problemas de acústica o electroestática, entre otros. Utiliza una interfaz de python de fácil uso, en nuestro caso utilizamos $Docker$\footnote{Software que crea contenedores virtuales para que puedan ejecutarse bajo cualquier máquina, independiente del sistema operativo que tenga.} $Images$ para poder resolver nuestro problema.\\ 
 Como se vio en la sección anterior, para resolver problemas con BEM es necesario resolver sistemas compuestos por matrices de gran tamaño, las cuales a su vez contienen elementos que son necesario aproximar, es por esto que la existencia de esta libreria abierta facilita la tarea.
 \subsection{Estructura.}
-La librería bempp tiene una estructura basada en la imagen \ref{fig:Estructura BEM}, la cual tiene 5 grandes ejes y es explicado con mayor detalle en \cite{Solvingbempp}:
+La librería bempp tiene una estructura basada en la imagen \ref{fig:Estructura BEM}, la cual tiene 5 grandes ejes y es explicado con mayor detalle en \cite{Solvingwithbempp}:
 \begin{itemize}
 \item Grid: Responsable del manejo de la malla, apoyado en la librería 'Dune-FoamGrid'.
 \item Fiber (\textbf{F}ast \textbf{I}ntegration \textbf{B}oundary \textbf{E}lement \textbf{R}outine): Es un elemento vital dentro de la librería. Encargado de evaluaciones las integrales de elementos de borde en cada elemento, sin importar su conectividad. Además de realizar la integración como tal. Este modulo es independiente del resto por lo que podría ser utilizado de manera particular en otros códigos de BEM.
@@ -736,7 +739,7 @@ La librería bempp tiene una estructura basada en la imagen \ref{fig:Estructura 
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.7]{Imagenes/estructurabempp.png}
-\caption{Modulos de bempp (Fuente:\cite{Solvingbempp})}\label{fig:Estructura BEM}
+\caption{Modulos de bempp (Fuente:\cite{Solvingwithbempp})}\label{fig:Estructura BEM}
 \end{figure}
 \item Assembly: Es el modulo más grande de la librería. Define los operadores integrales y los espaciones de funciones en la malla. También almacena las matrices de las integrales discretizadas que son formadas en el módulo Fiber.
 \item LinAlg: Módulo que almacena distintos tipos de $solver$'s lineales. 
@@ -795,7 +798,7 @@ Por útlimo se calculan los potenciales con las soluciones que obtuvimos en la p
 La situación en la que nos enfrentamos en el problema es de una onda electromagnetica incidente en nuestro microhilo. Esta onda tiene un campo magnético incidente $B_i$ y un campo eléctrico incidente $E_i$. Denominaremos al volumen del micro-hilo como $\Omega_1$ y al volumen externo como $\Omega_2$ tal como se muestra en la figura \ref{fig:Representacion del problema}.
 \begin{figure}[H]
 \centering
-\includegraphics[width=12cm]{Imagenes/ondaincidente.png}
+\includegraphics[width=8cm]{Imagenes/ondaincidente.png}
 \caption{Situación del problema} \label{fig:Representacion del problema}
 \end{figure}
 Comenzaremos con las ecuaciones de Maxwell:
@@ -1090,7 +1093,7 @@ Donde $I$ sería la matriz identidad. Usando los mismos pasos matemáticos pero 
 \end{bmatrix}
 \end{equation}
 \subsection{Creación de mallas.}\label{sec:Creacion de mallas.}
-Como se ha dicho en la sección \ref{sec:Biblioteca bempp.} es necesario una malla de estudio, a la cual aplicaremos las condiciones del problema. Corresponde utilizar el formato aceptado por la librería, $".msh"$. La creación de la geomtería de la malla se hace en el Software $SolidWorks$ en  donde se exporta el archivo en formato $STEP$:
+Como se ha dicho en la sección \ref{sec:Biblioteca bempp.} es necesario una malla de estudio, a la cual aplicaremos las condiciones del problema. Corresponde utilizar el formato aceptado por la librería, $".msh"$. La creación de la geomtería de la malla se hace en el Software $SolidWorks$ cite{Fulkerson SolidWorks} en  donde se exporta el archivo en formato $STEP$:
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.8]{Imagenes/Cilindro STEP.png}
@@ -1112,7 +1115,7 @@ Luego, este archivo en formato $STEP$ se abre en el software $Gmsh$, el cual nos
 \includegraphics[scale=0.8]{Imagenes/malla3.png}
 \caption{Malla detalle elementos}\label{fig:malla3}
 \end{figure}
-En el software $Gmsh$ también es posible verificar la dirección de los vectores normales y tangentes, por medio de inspección visual. Esto no es suficiente, por lo que abrimos la malla en $MeshLab$\cite{MeshLab} y verificamos no solo los puntos anteriores, sino también:
+En el software $Gmsh$ también es posible verificar la dirección de los vectores normales y tangentes, por medio de inspección visual. Esto no es suficiente, por lo que abrimos la malla en $MeshLab$cite{MeshLab} y verificamos no solo los puntos anteriores, sino también:
 \begin{itemize}
 \item Geometrías bien ubicadas.
 \item Vectores normales en la dirección deseada.
@@ -1505,23 +1508,9 @@ Finalmente se grafica la solución obtenida, en este caso obtendremos una soluci
 
 \end{tcolorbox}
 \newpage
-\section{Bibliografía.}
-\begin{thebibliography}{9}
-\bibitem{Wikipedia}
-  Leslie Lamport,
-  \textit{\LaTeX: a document preparation system},
-  Addison Wesley, Massachusetts,
-  2nd edition,
-  1994.
-\bibitem{Brebbia} \textsc{C.A. Brebbia.} y \textsc{J. Dominguez},\textit{ Boundary elements, an introduction course}, Second Edition, Chapter 1 y 2, 1992.
-\bibitem{bempp} \textsc{bempp services},\textit{ https://bempp.com/}
-\bibitem{camposvectoriales} \textsc{Universidad Nacional de La Plata – Facultad de Ciencias Exactas},\textit{Guía 6 - Campos vectoriales}, ANALISIS MATEMATICO II, 2014
-\bibitem{camposvectoriales2} \textsc{Universidad Almería},\textit{Guía 'Tema 9 - Campos escalates y campos vectoriales. Integrales de línea y superficia'}
-\bibitem{Solvingbempp}
-\textit{Smigaj, W., Betcke, T., Arridge, S., Phillips, J., and Schweiger}, M. 2012. \textsc{Solving boundary integral problems
-with BEM++.} ACM Trans. Math. Softw. V, N, Article A (January YYYY), 50 pages.
-\bibitem{MeshLab} \textit{P. Cignoni, M. Callieri, M. Corsini, M. Dellepiane, F. Ganovelli, G. Ranzuglia} \textsc{MeshLab: an Open-Source Mesh Processing Tool} Sixth Eurographics Italian Chapter Conference, page 129-136, 2008
-\bibitem{Gmsh} \textit{C. Geuzaine and J.-F. Remacle.} \textsc{Gmsh: a three-dimensional finite element mesh generator with built-in pre- and post-processing facilities.} International Journal for Numerical Methods in Engineering 79(11), pp. 1309-1331, 2009.
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{bibliografia}
 
-\end{thebibliography}
+\includepdf[pages=-,scale=0.9,picturecommand={},pagecommand={}]{PDFs/C1_E1_CIL.pdf}
 \end{document}
